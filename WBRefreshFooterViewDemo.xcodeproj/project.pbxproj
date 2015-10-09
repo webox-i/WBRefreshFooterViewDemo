@@ -15,6 +15,8 @@
 		E4D2A7581BC75D070073CB88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A7561BC75D070073CB88 /* LaunchScreen.storyboard */; };
 		E4D2A7631BC75D080073CB88 /* WBRefreshFooterViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A7621BC75D080073CB88 /* WBRefreshFooterViewDemoTests.m */; };
 		E4D2A76E1BC75D080073CB88 /* WBRefreshFooterViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A76D1BC75D080073CB88 /* WBRefreshFooterViewDemoUITests.m */; };
+		E4D2A77F1BC75D3E0073CB88 /* WBRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2A77D1BC75D3E0073CB88 /* WBRefreshFooterView.m */; settings = {ASSET_TAGS = (); }; };
+		E4D2A7801BC75D3E0073CB88 /* WBRefreshFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4D2A77E1BC75D3E0073CB88 /* WBRefreshFooterView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		E4D2A7691BC75D080073CB88 /* WBRefreshFooterViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBRefreshFooterViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D2A76D1BC75D080073CB88 /* WBRefreshFooterViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBRefreshFooterViewDemoUITests.m; sourceTree = "<group>"; };
 		E4D2A76F1BC75D080073CB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4D2A77C1BC75D3E0073CB88 /* WBRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRefreshFooterView.h; sourceTree = "<group>"; };
+		E4D2A77D1BC75D3E0073CB88 /* WBRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRefreshFooterView.m; sourceTree = "<group>"; };
+		E4D2A77E1BC75D3E0073CB88 /* WBRefreshFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBRefreshFooterView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		E4D2A73C1BC75D070073CB88 = {
 			isa = PBXGroup;
 			children = (
+				E4D2A77B1BC75D3E0073CB88 /* WBRefreshFooterView */,
 				E4D2A7471BC75D070073CB88 /* WBRefreshFooterViewDemo */,
 				E4D2A7611BC75D080073CB88 /* WBRefreshFooterViewDemoTests */,
 				E4D2A76C1BC75D080073CB88 /* WBRefreshFooterViewDemoUITests */,
@@ -138,6 +144,16 @@
 				E4D2A76F1BC75D080073CB88 /* Info.plist */,
 			);
 			path = WBRefreshFooterViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		E4D2A77B1BC75D3E0073CB88 /* WBRefreshFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				E4D2A77C1BC75D3E0073CB88 /* WBRefreshFooterView.h */,
+				E4D2A77D1BC75D3E0073CB88 /* WBRefreshFooterView.m */,
+				E4D2A77E1BC75D3E0073CB88 /* WBRefreshFooterView.xib */,
+			);
+			path = WBRefreshFooterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +261,7 @@
 			files = (
 				E4D2A7581BC75D070073CB88 /* LaunchScreen.storyboard in Resources */,
 				E4D2A7551BC75D070073CB88 /* Assets.xcassets in Resources */,
+				E4D2A7801BC75D3E0073CB88 /* WBRefreshFooterView.xib in Resources */,
 				E4D2A7531BC75D070073CB88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +289,7 @@
 			files = (
 				E4D2A7501BC75D070073CB88 /* ViewController.m in Sources */,
 				E4D2A74D1BC75D070073CB88 /* AppDelegate.m in Sources */,
+				E4D2A77F1BC75D3E0073CB88 /* WBRefreshFooterView.m in Sources */,
 				E4D2A74A1BC75D070073CB88 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
